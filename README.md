@@ -2,19 +2,24 @@
 
 ## Description
 
-Ce projet simule un contrôle ultrasonore de type A-Scan
+Ce projet est une simulation simplifié d'un contrôle non destructif par ultrason de type A-Scan
 dans un bloc d'acier contenant un défaut interne.
 
-La simulation prend en compte :
+## simplification du modèle physique et équations utilisées
 
-- le temps de vol des ondes longitudinales ;
-- l'atténuation du signal dans l'acier ;
-- la réflexion sur un défaut ;
-- la réflexion sur le fond de la pièce ;
-- une onde ultrasonore modélisée par une sinusoïde
-  modulée par une enveloppe gaussienne.
+## Formule de l'atténuation acoustique
 
-## Modèle physique
+L'atténuation de l'amplitude de l'onde acoustique est régie par l'équation suivante :
+
+$$A = A_0 \times e^{-\alpha \times d}$$
+
+**Avec :**
+* $A_0$ : Amplitude de l'onde émise.
+* $A$ : Amplitude de l'onde qui a parcouru la distance $d$.
+* $d$ : Distance parcourue.
+* $\alpha$ : Coefficient dépendant du matériau et de la fréquence au carré, défini par :
+
+$$\alpha = k \times f^2$$ 
 
 Temps de vol :
 
