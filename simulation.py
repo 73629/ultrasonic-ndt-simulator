@@ -196,4 +196,5 @@ plt.grid(True)
 plt.legend()
 
 plt.tight_layout()
+plt.savefig("ascan.png", dpi=300)
 plt.show()
