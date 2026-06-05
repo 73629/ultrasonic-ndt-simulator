@@ -7,7 +7,7 @@ dans un bloc d'acier contenant un défaut interne.
 
 ## Modèle physique et équations utilisées
 
-# Formule de l'atténuation acoustique
+### Formule de l'atténuation acoustique
 
 L'atténuation de l'amplitude de l'onde acoustique est décrite par l'équation suivante :
 
