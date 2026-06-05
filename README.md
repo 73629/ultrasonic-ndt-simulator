@@ -26,7 +26,7 @@ A = A0 exp(-αd)
 
 ## Résultat
 
-(image)
+![Résultat](ascan.png)
 
 ## Technologies
 
@@ -40,4 +40,3 @@ pip install -r requirements.txt
 
 python simulation.py
 
-![Résultat](ascan.png)
