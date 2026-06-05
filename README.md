@@ -5,21 +5,21 @@
 Ce projet est une simulation simplifié d'un contrôle non destructif par ultrason de type A-Scan
 dans un bloc d'acier contenant un défaut interne.
 
-## simplification du modèle physique et équations utilisées
+## Modèle physique et équations utilisées
 
-## Formule de l'atténuation acoustique
+# Formule de l'atténuation acoustique
 
-L'atténuation de l'amplitude de l'onde acoustique est régie par l'équation suivante :
+L'atténuation de l'amplitude de l'onde acoustique est décrite par l'équation suivante :
 
-$$A = A_0 \times e^{-\alpha \times d}$$
+$$A = A_0 e^{-\alpha d}$$
 
 **Avec :**
-* $A_0$ : Amplitude de l'onde émise.
-* $A$ : Amplitude de l'onde qui a parcouru la distance $d$.
+* $A_0$ : Amplitude initiale de l'onde .
+* $A$ : Amplitude de l'onde après avoir parcouru une distance $d$.
 * $d$ : Distance parcourue.
-* $\alpha$ : Coefficient dépendant du matériau et de la fréquence au carré, défini par :
+* $\alpha$ : Coefficient d'atténuation qui dépend du matériau et de la fréquence de l'onde. Pour une onde de 2 MHz, 
+             le $\alpha$ de l'acier peut varier de 5 à 50 dB/m. J'ai choisi 40 dB/m.  
 
-$$\alpha = k \times f^2$$ 
 
 Temps de vol :
 
