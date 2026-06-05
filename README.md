@@ -34,7 +34,7 @@ $$A = A_0 e^{-\alpha d}$$
 * $A$ : Amplitude de l'onde après avoir parcouru une distance $d$.
 * $d$ : Distance parcourue.
 * $\alpha$ : Coefficient d'atténuation qui dépend du matériau et de la fréquence de l'onde, en (Np/m). Pour une onde de 2 MHz, 
-             le $\alpha$ de l'acier peut varier de 5 à 50 dB/m. J'ai choisi 40 dB/m, ce qui correspond environ à Np/m  
+             le $\alpha$ de l'acier peut varier de 5 à 50 dB/m. J'ai choisi 40 dB/m, ce qui correspond environ à 4.6 Np/m  
 
 
 ### Temps de vol 
@@ -52,6 +52,8 @@ $$t = \frac{v_L p}{2}$$
 $$R = \frac{A_r}{A_i}$$ et $$T = \frac{A_t}{A_i}$$
 
 **Avec :**
+* $R$ = coefficient de réflexion
+* $T$ = coefficient de réflexion
 * $A_i$ = amplitude de l'onde incidente
 * $A_r$ = amplitude de l'onde réfléchie 
 * $A_t$ = amplitude de l'onde transmise
@@ -59,6 +61,8 @@ $$R = \frac{A_r}{A_i}$$ et $$T = \frac{A_t}{A_i}$$
 ## Résultat
 
 ![Résultat](ascan.png)
+
+Essai
 
 ## Technologies
 
