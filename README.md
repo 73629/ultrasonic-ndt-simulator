@@ -5,6 +5,8 @@
 Ce projet est une simulation simplifié d'un contrôle non destructif par ultrason de type A-Scan
 dans un bloc d'acier contenant un défaut interne.
 
+Par Nicolas Desnoyers
+
 ## Modèle physique et équations utilisées
 
 ### Paramètres de l'onde, du bloc et du défaut
