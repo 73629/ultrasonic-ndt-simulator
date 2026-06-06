@@ -25,7 +25,7 @@ L'onde :
 
 ### Atténuation acoustique
 
-L'atténuation de l'amplitude de l'onde acoustique est décrite par l'équation suivante :
+L'atténuation de l'amplitude de l'onde acoustique lorsqu'elle se propage dans l'acier est décrite par l'équation suivante :
 
 $$A = A_0 e^{-\alpha d}$$
 
@@ -62,7 +62,7 @@ $$R = \frac{A_r}{A_i}$$ et $$T = \frac{A_t}{A_i}$$
 
 ![Résultat](ascan.png)
 
-Essai
+La gaussienne la plus à gauche illustre l'amplitude de l'onde émise. Celle au milieu est celle de l'onde réfléchie par le défaut, et celle la plsu à droite est celle réfléchie par le fond du bloc. Ce qui a causé une baisse d'amplitude aussi forte par rapport à l'onde initiale est le défaut.  À cause de son facteur de réflexion et de transmission de 0.5. L'amplitude de l'écho de fond (0.30) est légèrement inférieure à celle du défaut (0.38), mais pas de beaucoup, car l'onde réfléchie du fond n'a pas frappé le défaut en remontant. Si je faisais un contrôle non destructif du bloc d'acier, la présence du défaut serait confirmée par les différence de temps inégales entre les gaussiennes.
 
 ## Technologies
 
