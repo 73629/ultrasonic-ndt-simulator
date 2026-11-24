@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est une simulation simplifié d'un contrôle non destructif par ultrason de type A-Scan
+Ce projet est une simulation simplifiée d'un contrôle non destructif par ultrason de type A-Scan
 dans un bloc d'acier contenant un défaut interne.
 
 Par Nicolas Desnoyers
